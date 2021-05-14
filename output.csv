@@ -1,6 +1,6 @@
-,account_name,campaign_name,adset_name,ad_name,account_currency,reach,impressions,frequency,cpm,clicks,date_start,date_stop
-0,mr.\u0110\u1ea1t,"*Feaer ECO, LLTC, K\u00e9o Shopee tu\u1ea7n l\u1ec5, Qu\u1ed1c FE, 1",Nh\u00f3m qu\u1ea3ng c\u00e1o m\u1edbi,Qu\u1ea3ng c\u00e1o m\u1edbi,VND,462752,776906,1.678882,5471.755914,5721,2021-04-13,2021-05-12
-1,mr.\u0110\u1ea1t,"Feaer ECO, LLTC, K\u00e9o Shopee tu\u1ea7n l\u1ec5, Qu\u1ed1c FE, 3",Nh\u00f3m qu\u1ea3ng c\u00e1o m\u1edbi,Qu\u1ea3ng c\u00e1o m\u1edbi,VND,369696,550577,1.48927,7803.538833,5777,2021-04-13,2021-05-12
-2,mr.\u0110\u1ea1t,"Feaer ECO, LLTC, K\u00e9o Shopee tu\u1ea7n l\u1ec5, Qu\u1ed1c FE, 4",Nh\u00f3m qu\u1ea3ng c\u00e1o m\u1edbi,Qu\u1ea3ng c\u00e1o m\u1edbi,VND,418403,749411,1.791122,5634.455592,5150,2021-04-13,2021-05-12
-3,mr.\u0110\u1ea1t,"Feaer ECO, LLTC, K\u00e9o Shopee tu\u1ea7n l\u1ec5, Qu\u1ed1c FE, 4",Nh\u00f3m qu\u1ea3ng c\u00e1o m\u1edbi,Qu\u1ea3ng c\u00e1o m\u1edbi,VND,341153,533311,1.56326,6551.771855,4300,2021-04-13,2021-05-12
-4,mr.\u0110\u1ea1t,"Feaer Denim, LLTC, K\u00e9o Lazada, Thi\u1ec7n 1",Nh\u00f3m qu\u1ea3ng c\u00e1o m\u1edbi,Qu\u1ea3ng c\u00e1o m\u1edbi,VND,74871,121946,1.628748,15914.847555,2459,2021-04-13,2021-05-12
+﻿,account_name,campaign_id,campaign_name,adset_name,ad_name,account_currency,reach,impressions,frequency,cpm,like,comment,clicks,date_start,date_stop
+0,mr.Đạt,2.38475E+16,"*Feaer ECO, LLTC, Kéo Shopee tuần lễ, Quốc FE, 1",Nhóm quảng cáo mới,Quảng cáo mới,VND,462752,776906,1.678882,5471.755914,1,4,5721,4/14/2021,5/13/2021
+1,mr.Đạt,2.38475E+16,"Feaer ECO, LLTC, Kéo Shopee tuần lễ, Quốc FE, 3",Nhóm quảng cáo mới,Quảng cáo mới,VND,369696,550577,1.48927,7803.538833,0,3,5777,4/14/2021,5/13/2021
+2,mr.Đạt,2.38475E+16,"Feaer ECO, LLTC, Kéo Shopee tuần lễ, Quốc FE, 4",Nhóm quảng cáo mới,Quảng cáo mới,VND,418403,749411,1.791122,5634.455592,0,2,5150,4/14/2021,5/13/2021
+3,mr.Đạt,2.38475E+16,"Feaer ECO, LLTC, Kéo Shopee tuần lễ, Quốc FE, 4",Nhóm quảng cáo mới,Quảng cáo mới,VND,341153,533311,1.56326,6551.771855,0,2,4300,4/14/2021,5/13/2021
+4,mr.Đạt,2.38476E+16,"Feaer Denim, LLTC, Kéo Lazada, Thiện 1",Nhóm quảng cáo mới,Quảng cáo mới,VND,74871,121946,1.628748,15914.84756,0,0,2459,4/14/2021,5/13/2021
