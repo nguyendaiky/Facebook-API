@@ -29,13 +29,13 @@ fileWrite.close()
 with open('general.json',encoding="utf-8-sig") as project_file:    
     data = json.load(project_file)  
 df = pd.json_normalize(data)
-df.to_csv(r'general.csv',encoding='utf-8-sig', index=True,header=True)
+df.to_csv(r'general.csv',encoding='utf-8-sig', index=False ,header=True)
 
 
 # REACTION
 levelInput = "ad"
 fieldInput = ["actions"]
-action_breakdowns = "action_reaction"
+action_breakdowns = "action_reaction,action_type"
 url = "https://graph.facebook.com/v10.0/act_627895837771934/insights"
 access_token = "EAACLELV0dZCMBAIS6Jmhd256FiDOyUndbs6j6HITe8XFlRCTCiDIqwImhkSFZCZBJJ64VsQmZBa302NTTAzcVYffhZB6o726sZBLA7Pjd3kK8xZCkSp8yNlHbewEj4EwEdomNfs6ECuqsXEZBnxPuqvQ1DAUCys3Chgo8prvQ6mVGhwhJAoK8wXH"
 
@@ -58,7 +58,7 @@ for i in range(len(arr)):
     arr[i] = arr[i][:end]
 arr[-1] += '}'
 
-reactionList = ["like","love","care","haha","wow","sad","angry","onsite_conversion","post_reaction","post_engagement","page_engagement"]
+reactionList = ["like","love","care","haha","wow","sad","angry","comment","onsite_conversion","post_reaction","post_engagement","page_engagement"]
 lists = [[] for _ in range(len(reactionList))]
 
 for i in range(1,len(arr)):
@@ -194,8 +194,28 @@ for i in range(1,len(arr)):
         lists[10].append(temp)
     else:
         lists[10].append(" ")
+
+    if reactionList[11] in arr[i]:
+        v11 = arr[i].find(reactionList[11])
+        while not arr[i][v11].isnumeric():
+            v11 += 1
+        temp = ''
+        while arr[i][v11] != '"':
+            temp += arr[i][v11]
+            v11+=1
+        lists[11].append(temp)
+    else:
+        lists[11].append(" ")
+
 raw_data = {}
 for i in range(len(reactionList)):
     raw_data[reactionList[i]] = lists[i]
 df = pd.DataFrame(raw_data, columns=reactionList)
-df.to_csv('reaction.csv', encoding="utf-8-sig")
+df.to_csv('reaction.csv', encoding="utf-8-sig",index=False)
+
+df1 = pd.read_csv('general.csv')
+df2 = pd.read_csv('reaction.csv')
+key = df2.keys()
+for i in range(len(key)):
+    df1.insert(16+i,key[i],df2.values[:,i])
+df1.to_csv('data.csv',encoding="utf-8-sig",index=False)
