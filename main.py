@@ -227,6 +227,8 @@ for index in range(len(Input.values)):
     for i in range(1,len(df1.values)+1):
         stt.append(i)
     df1.insert(0,"stt",stt)
+    if not os.path.exists('OUTPUT'):
+        os.mkdir('OUTPUT')
     name = 'OUTPUT\data{index}.csv'.format(index=index+1)
     df1.to_csv(name,encoding="utf-8-sig",index=False)
     os.remove('general.json')
