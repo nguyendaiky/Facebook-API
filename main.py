@@ -231,7 +231,7 @@ try:
             df2 = pd.read_csv('reaction.csv')
             key = df2.keys()
             for i in range(len(key)):
-                df1.insert(16+i,key[i],df2.values[:,i])
+                df1.insert(18+i,key[i],df2.values[:,i])
             stt = []
             for i in range(1,len(df1.values)+1):
                 stt.append(i)
