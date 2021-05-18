@@ -1,5 +1,4 @@
 ﻿FIELDS,DESCRIPTION,VIETNAMESE
-stt,Number of ad,Số lượng quảng cáo
 account_id,The ID number of your ad account,Id tài khoản
 account_name,The name of your ad account,Tên tài khoản
 campaign_id,The unique ID number of the ad campaign,Id chiến dịch
