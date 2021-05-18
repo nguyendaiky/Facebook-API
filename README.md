@@ -28,15 +28,19 @@ pip3 install -r .\requirements.txt
 ```
 ### 2. Nhập thông tin:
 
-Nhập thông tin đầu vào tại: INPUT/input.csv
+```sh
+Nhập thông tin tại thư mục: INPUT
 
-Gồm 3 trường: ACCOUNT_ID, ACCESS_TOKEN, SLEEP_TIME
+- File input_id_token.csv gồm: ACCOUNT_ID, ACCESS_TOKEN
+    + ACCOUNT_ID: ID của tài khoản quảng cáo.
+    + ACCESS_TOKEN: token truy cập.
+> Mỗi thông tin nhập cách nhau một dấu phẩy, có thể nhập nhiều tài khoản vào danh sách.
 
-- ACCOUNT_ID: ID của tài khoản quảng cáo.
-- ACCESS_TOKEN: token truy cập.
-- SLEEP_TIME: thời gian chờ update (giây).
-> Mỗi thông tin nhập cách nhau một dấu phẩy, có thể nhập nhiều tài khoản.
-
+- File input_field_time.txt gồm: TIME_SLEEP, GENERAL, ACTION
+    + TIME_SLEEP: thời gian đợi giữa các lần update dữ liệu (giây).
+    + GENERAL: điền vào các general-field cần truy xuất.
+    + ACTION: điền vào các action-field cần truy xuất.
+```
 ### 3. Khởi chạy và dừng chương trình:
 
 - Chạy chương trình: 
@@ -48,5 +52,10 @@ python .\main.py
 python3 .\main.py
 ```
 - Dừng chương trình: Ctrl + C
+
+### 4. Xem kết quả:
+
+Xem kết quả tại thư mục OUTPUT.
+
 
 
