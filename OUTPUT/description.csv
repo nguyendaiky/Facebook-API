@@ -13,136 +13,138 @@ social_spend,The total amount you've spent so far for your ads showed with socia
 buying_type,The method by which you pay for and target ads in your campaigns,Cách thức mua
 frequency,The average number of times each person saw your ad,Số lần trung bình khách hàng thấy được quảng cáo
 reach,The number of people who saw your ads at least once,Số lượng người nhìn thấy được quảng cáo (ít nhất một lần)
-cpp,The average cost to reach 1,000 people,Chi phí trung bình cho 1000 người tiếp cận
+cpp,The average cost to reach 1000 people,Chi phí trung bình cho 1000 người tiếp cận
 impressions,The number of times your ads were on screen,Số lần quảng cáo hiển thị trên màn hình
-cpm,The average cost for 1,000 impressions,Chi phí trung bình cho 1000 lần hiển thị
+cpm,The average cost for 1000 impressions,Chi phí trung bình cho 1000 lần hiển thị
 clicks,The number of clicks on your ads,Số lần click quảng cáo
 cpc,The average cost for each click (all),Chi phí trung bình cho mỗi click
 ctr,The percentage of times people saw your ad and performed a click (all),Tỉ lệ số lần người thấy quảng cáo và click vào quảng cáo
 unique_clicks,The number of people who performed a click (all),Số người thực hiện click quảng cáo
-unique_ctr,The percentage of people who saw your ad and performed a unique click (all),Tỉ lệ người thấy quảng cáo và thực hiện một lần click duy nhất
-unique_inline_link_click_ctr,,
-unique_inline_link_clicks,,
-unique_link_clicks_ctr,,
-cost_per_inline_link_click,,
-cost_per_inline_post_engagement,,
-cost_per_unique_click,,
-cost_per_unique_inline_link_click,,
-engagement_rate_ranking,,
-conversion_rate_ranking,,
-inline_link_clicks,,
-inline_link_click_ctr,,
-inline_post_engagement,,
-objective,,
-optimization_goal,,
-quality_ranking,,
-like,,
-love,,
-care,,
-haha,,
-wow,,
-sad,,
-angry,,
-comment,,
-checkin,,
-credit_spent,,
-landing_page_view,,
-onsite_conversion.post_save,,
-post,,
-rsvp,,
-contact_total,,
-contact_website,,
-contact_mobile_app,,
-contact_offline,,
-flow_complete,,
-messaging_block,,
-messaging_conversation_started_7d,,
-messaging_first_reply,,
-onsite_conversion.purchase,,
-outbound_click,,
-post_reaction,,
-photo_view,,
-video_view,,
-post_engagement,,
-page_engagement,,
-fb_pixel_add_payment_info,,
-fb_pixel_add_to_cart,,
-fb_pixel_add_to_wishlist,,
-fb_pixel_complete_registration,,
-fb_pixel_custom,,
-fb_pixel_initiate_checkout,,
-fb_pixel_lead,,
-fb_pixel_purchase,,
-fb_pixel_search,,
-fb_pixel_view_content,,
-fb_mobile_achievement_unlocked,,
-fb_mobile_activate_app,,
-fb_mobile_add_payment_info,,
-fb_mobile_add_to_cart,,
-fb_mobile_add_to_wishlist,,
-fb_mobile_complete_registration,,
-fb_mobile_content_view,,
-fb_mobile_initiated_checkout,,
-fb_mobile_level_achieved,,
-fb_mobile_purchase,,
-fb_mobile_rate,,
-fb_mobile_search,,
-fb_mobile_spent_credits,,
-fb_mobile_tutorial_completion,,
-omni_app_install,,
-omni_purchase,,
-omni_add_to_cart,,
-omni_complete_registration,,
-omni_view_content,,
-omni_search,,
-omni_initiated_checkout,,
-omni_achievement_unlocked,,
-omni_activate_app,,
-omni_level_achieved,,
-omni_rate,,
-omni_spend_credits,,
-omni_tutorial_completion,,
-omni_custom,,
-customize_product_total,,
-customize_product_website,,
-customize_product_mobile_app,,
-customize_product_offline,,
-find_location_total,,
-find_location_website,,
-find_location_mobile_app,,
-find_location_offline,,
-donate_total,,
-donate_website,,
-donate_on_facebook,,
-donate_mobile_app,,
-donate_offline,,
-schedule_total,,
-schedule_website,,
-schedule_mobile_app,,
-schedule_offline,,
-start_trial_total,,
-start_trial_website,,
-start_trial_mobile_app,,
-start_trial_offline,,
-submit_application_total,,
-submit_application_website,,
-submit_application_mobile_app,,
-submit_application_offline,,
-submit_application_on_facebook,,
-subscribe_total,,
-subscribe_website,,
-subscribe_mobile_app,,
-subscribe_offline,,
-recurring_subscription_payment_total,,
-recurring_subscription_payment_website,,
-recurring_subscription_payment_mobile_app,,
-recurring_subscription_payment_offline,,
-cancel_subscription_total,,
-cancel_subscription_website,,
-cancel_subscription_mobile_app,,
-cancel_subscription_offline,,
-ad_click_mobile_app,,
-ad_impression_mobile_app,,
-click_to_call_call_confirm,,
-date_start,,
-date_stop,,
+unique_ctr,The percentage of people who saw your ad and performed a unique click (all),Tỉ lệ người thấy quảng cáo và thực hiện một click duy nhất
+unique_inline_link_click_ctr,The percentage of times people saw your ad and performed a link click. Inline click-through rate uses a fixed 1-day-click attribution window,Tỉ lệ người thấy quảng cáo và thực hiện một click link duy nhất nội tuyến
+unique_inline_link_clicks,The number of people who performed an inline link click,Số người thực hiện click link duy nhất nội tuyến
+unique_link_clicks_ctr,The percentage of people who saw your ad and performed a link click,Tỉ lệ người thấy quảng cáo và thực hiện một click link
+cost_per_inline_link_click,The average cost of each inline link click,Chi phí trung bình cho mỗi click link nội tuyến
+cost_per_inline_post_engagement,The average cost of each inline post engagement,Chi phí trung bình cho mỗi tương tác bài viết nội tuyến
+cost_per_unique_click,The average cost for each unique click (all),Chi phí trung bình cho mỗi click duy nhất (tất cả)
+cost_per_unique_inline_link_click,The average cost of each unique inline link click,Chi phí trung bình cho mỗi click link duy nhất nội tuyến
+engagement_rate_ranking,A ranking of your ad's expected engagement rate,Xếp hạng tỉ lệ tương tác dự kiến
+conversion_rate_ranking,A ranking of your ad's expected conversion rate,Xếp hạng tỉ lệ chuyển đổi dự kiến
+inline_link_clicks,The number of clicks on links to select destinations or experiences on or off Facebook-owned properties,Số lần click link nội tuyến
+inline_link_click_ctr,The percentage of time people saw your ads and performed an inline link click,Tỉ lệ người thấy quảng cáo và thực hiện click link nội tuyến
+inline_post_engagement,The total number of actions that people take involving your ads,Tổng tương tác liên quan đến quảng cáo nội tuyến
+objective,The objective reflecting the goal you want to achieve with your advertising,Đối tượng phản ánh với mục tiêu mà muốn quảng cáo đạt được 
+optimization_goal,The optimization goal you selected for your ad or ad set,Mục tiêu tối ưu hóa cho quảng cáo
+quality_ranking,A ranking of your ad's perceived quality. Quality is measured using feedback on your ads and the post-click experience,Xếp hạng chất lượng quảng cáo
+post_like,The number of like on your ad,Số lượt like bài viết
+post_love,The number of love on your ad,Số lượt love bài viết
+post_care,The number of care on your ad,Số lượt care bài viết
+post_haha,The number of haha on your ad,Số lượt haha bài viết
+post_wow,The number of wow on your ad,Số lượt wow bài viết
+post_sad,The number of sad on your ad,Số lượt sad bài viết
+post_angry,The number of angry on your ad,Số lượt angry bài viết
+post_comment,The number of likes on your ad,Số lượt comment bài viết
+checkin,Check-ins,Số lượt check-in
+credit_spent,Credit Spends,Chi phí tín dụng
+landing_page_view,Landing Page Views,Số lượt xem trang
+onsite_conversion_post_save,Post Saves,Số lượt lưu bài viết
+post,Post Shares,Số lượt share bài viết
+rsvp,Event Responses,Số lượt phản hồi sự kiện
+contact_total,Contacts,Tổng liên hệ
+contact_website,Website Contacts,Liên hệ website
+contact_mobile_app,Mobile App Contacts,Liên hệ mobile app
+contact_offline,Offline Contacts,Liên hệ trực tiếp
+flow_complete,On-Facebook Workflow Completions,Hoàn thành quy trình làm việc
+messaging_block,Blocked Messaging Conversations,Cuộc trò chuyện bị chặn
+messaging_conversation_started_7d,Messaging Conversations Started,Cuộc trò chuyện bắt đầu sau 7 ngày
+messaging_first_reply,New Messaging Conversations,Cuộc trò chuyện mới
+onsite_conversion_purchase,On-Facebook Purchases,Mua hàng trên facebook
+outbound_click,Outbound Clicks,Số lượt click ngoài
+post_reaction,Post Reactions,Tương tác bài viết
+photo_view,Page Photo Views,Số lượt xem ảnh
+video_view,3-Second Video Views,Số lượt xem video (3 giây)
+post_engagement,Post Engagement,Tổng tương tác bài viết
+page_engagement,Page Engagement,Tổng tương tác trang
+fb_pixel_add_payment_info,Adds Payment Info,Thêm thông tin thanh toán
+fb_pixel_add_to_cart,Adds To Cart,Thêm hàng vào giỏ
+fb_pixel_add_to_wishlist,Adds To Wishlist,Thêm vào danh sách yêu thích
+fb_pixel_complete_registration,Completed Registration,Hoàn thành đăng ký
+fb_pixel_custom,Custom pixel events defined by the advertiser,Sự kiện tùy chỉnh
+fb_pixel_initiate_checkout,Initiates Checkout,Bắt đầu thanh toán
+fb_pixel_lead,Leads,Khách hàng tiềm năng
+fb_pixel_purchase,Purchases,Lượt mua hàng
+fb_pixel_search,Searchs,Lượt tìm kiếm
+fb_pixel_view_content,Views Content,Lượt xem nội dung
+fb_mobile_achievement_unlocked,Mobile App Feature Unlocks,Mở khóa tính năng ứng dụng dành cho thiết bị di động
+fb_mobile_activate_app,Mobile App Starts,Bắt đầu ứng dụng dành cho thiết bị di động
+fb_mobile_add_payment_info,Mobile App Payment Details,Chi tiết thanh toán trên thiết bị di động
+fb_mobile_add_to_cart,Mobile App Adds To Cart,Thêm vào giỏ hàng trên thiết bị di động
+fb_mobile_add_to_wishlist,Mobile App Adds to Wishlist,Thêm vào danh sách yêu thích trên thiết bị di động
+fb_mobile_complete_registration,Mobile App Registrations,Đăng ký trên thiết bị di động
+fb_mobile_content_view,Mobile App Content Views,Lượt xem nội dung trên thiết bị di động
+fb_mobile_initiated_checkout,Mobile App Checkouts,Thanh toán trên thiết bị di động
+fb_mobile_level_achieved,Mobile App Achievements,Mức độ đạt trên thiết bị di động
+fb_mobile_purchase,Mobile App Purchases,Lượt mua trên thiết bị di động
+fb_mobile_rate,Mobile App Ratings,Xếp hạng trên thiết bị di động
+fb_mobile_search,fb_mobile_search,Tìm kiếm trên thiết bị di động
+fb_mobile_spent_credits,Mobile App Credit Spends,Chi phí tín dụng trên thiết bị di động
+fb_mobile_tutorial_completion,Mobile App Tutorial Completions,Hoàn thành hướng dẫn trên thiết bị di động
+app_install,App Installs,Cài đặt app
+app_use,App Uses,Sử dụng app
+omni_app_install,App Installs,Cài đặt app omni
+omni_purchase,Purchases,Lượt mua omni
+omni_add_to_cart,Adds to Cart,Thêm vào giỏ hàng omni
+omni_complete_registration,Registrations Completed,Hoàn thành đăng kí omni
+omni_view_content,Content Views,Lượt xem nội dung omni
+omni_search,Searches,Tìm kiếm trên omni
+omni_initiated_checkout,Checkouts Initiated,Bắt đầu thanh toán trên omni
+omni_achievement_unlocked,Achievements Unlocked,Mở khóa thành tích trên omni
+omni_activate_app,App Activations,Kích hoạt ứng dụng omni
+omni_level_achieved,Levels Achieved,Mức độ đạt trên omni
+omni_rate,Ratings Submitted,Xếp hạng đã gửi
+omni_spend_credits,Credit Spends,Chi phí tín dụng trên omni
+omni_tutorial_completion,Tutorials Completed,Hoàn thành hướng dẫn trên omni
+omni_custom,Custom Events,Sự kiện omni tùy chỉnh
+customize_product_total,Products Customized,Tổng sản phẩm tùy chỉnh
+customize_product_website,Website Products Customized,Sản phầm tùy chỉnh website
+customize_product_mobile_app,Mobile App Products Customized,Sản phẩm tùy chỉnh mobile app
+customize_product_offline,Offline Products Customized,Sản phầm tùy chỉnh offline
+find_location_total,Location Searches,Tổng tìm kiếm vị trí
+find_location_website,Website Location Searches,Tìm kiếm vị trí trên website
+find_location_mobile_app,Mobile App Location Searches,Tìm kiếm vị trí trên mobile app 
+find_location_offline,Offline App Location Searches,Tìm kiếm vị trí offline
+donate_total,Donations,Tổng quyên góp
+donate_website,Website Donations,Quyên góp trên website
+donate_on_facebook,On Facebook Donations,Quyên góp facebook
+donate_mobile_app,Mobile App Donations,Quyên góp trên mobile app
+donate_offline,Offline Donations,Quyên góp offline
+schedule_total,Appointments Scheduled,Tổng lịch hẹn
+schedule_website,Website Appointments Scheduled,Lên lịch hẹn qua website
+schedule_mobile_app,Mobile App Appointments Scheduled,Lên lịch hẹn qua mobile app
+schedule_offline,Offline App Appointments Scheduled,Lên lịch hẹn offline
+start_trial_total,Trials Started,Bắt đầu thử nghiệm
+start_trial_website,Website Trials Started,Bắt đầu thử nghiệm trên website
+start_trial_mobile_app,Mobile App Trials Started,Bắt đầu thử nghiệm trên mobile app
+start_trial_offline,Offline Trials Started,Bắt đầu thử nghiệm offline
+submit_application_total,Applications Submitted,Ứng dụng đã gửi
+submit_application_website,Website Applications Submitted,Ứng dụng đã gửi trên website
+submit_application_mobile_app,Mobile App Applications Submitted,Ứng dụng đã gửi trên mobile app
+submit_application_offline,Offline Applications Submitted,Ứng dụng đã gửi offline
+submit_application_on_facebook,On Facebook Applications Submitted,Ứng dụng đã gửi facebook
+subscribe_total,Subscriptions,Tổng lượt đăng ký
+subscribe_website, Website Subscriptions,Đăng ký website
+subscribe_mobile_app,Mobile App Subscriptions,Đăng ký mobile app
+subscribe_offline,Offline Subscriptions,Đăng ký offline
+recurring_subscription_payment_total,Recurring Subscription Payments,Tổng đăng ký thanh toán định kỳ
+recurring_subscription_payment_website,Website Recurring Subscription Payments,Đăng ký thanh toán định kỳ trên website
+recurring_subscription_payment_mobile_app,Mobile App Recurring Subscription Payments,Đăng ký thanh toán định kỳ trên mobile app
+recurring_subscription_payment_offline,Offline Recurring Subscription Payments,Đăng ký thanh toán định kỳ trên mobile app
+cancel_subscription_total,Canceled Subscriptions,Tổng hủy đăng ký
+cancel_subscription_website,Website Canceled Subscriptions,Hủy đăng ký trên website
+cancel_subscription_mobile_app,Mobile App Canceled Subscriptions,Hủy đăng ký trên mobile app
+cancel_subscription_offline,Offline Canceled Subscriptions,Hủy đăng ký offline
+ad_click_mobile_app,In-App Ad Clicks,Số lượt click quảng cáo trên app
+ad_impression_mobile_app,In-App Ad Impressions,Số lượt hiển thị trên app
+click_to_call_call_confirm,Call Confirmation Clicks,Số lượt click xác nhận cuộc gọi
+date_start,The start date for your data,Ngày bắt đầu lấy dữ liệu
+date_stop,The end date for your data,Ngày kết thúc lấy dữ liệu
