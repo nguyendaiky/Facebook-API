@@ -1,5 +1,6 @@
 import pandas as pd
 import requests
+
 import json
 import os, sys
 import time
@@ -24,6 +25,7 @@ times = 0
 try:
     while True:
         times += 1
+        result = pd.DataFrame()
         for index in range(len(Input1.values)):
 
             id = Input1.values[index][0]
@@ -49,15 +51,17 @@ try:
             end = len(t) - 59
             t = t[start:end]
             t = '[' + t + ']'
+            data = eval(t)
+            df1 = pd.json_normalize(data)
+
 
             # Save 
-            fileWrite = open("general.json",'w', encoding="utf-8-sig")
-            fileWrite.write(t)
-            fileWrite.close()
-            with open('general.json',encoding="utf-8-sig") as project_file:    
-                data = json.load(project_file)  
-            df = pd.json_normalize(data)
-            df.to_csv(r'general.csv',encoding='utf-8-sig', index=False ,header=True)
+            # fileWrite = open("general.json",'w', encoding="utf-8-sig")
+            # fileWrite.write(t)
+            # fileWrite.close()
+            # with open('general.json',encoding="utf-8-sig") as project_file:    
+            #     data = json.load(project_file)  
+            # df1 = pd.json_normalize(data)
 
             # ACTION
             levelInput = "ad"
@@ -105,28 +109,30 @@ try:
             raw_data = {}
             for i in range(len(reactionList)):
                 raw_data[reactionList[i]] = lists[i]
-            df = pd.DataFrame(raw_data, columns=reactionList)
-            df.to_csv('action.csv', encoding="utf-8-sig",index=False)
+            df2 = pd.DataFrame(raw_data, columns=reactionList)
 
             # Merge General and Action
-            df1 = pd.read_csv('general.csv')
-            df2 = pd.read_csv('action.csv')
             key = df2.keys()
             for i in range(len(key)):
                 df1.insert(37+i,key[i],df2.values[:,i])
 
             if index == 0:
-                if not os.path.exists('OUTPUT'):
-                    os.mkdir('OUTPUT')
-                df1.to_csv('OUTPUT\data.csv',encoding="utf-8-sig",index=False)
+                result = df1.copy(deep=True)
             else:
-                df3 = pd.read_csv('OUTPUT\data.csv')
-                frames = [df3,df1]
-                result = pd.concat(frames,ignore_index=True)
-                result.to_csv('OUTPUT\data.csv',encoding="utf-8-sig",index=False)
-            os.remove('general.json')
-            os.remove('general.csv')
-            os.remove('action.csv') 
+                result = [result,df1]
+                result = pd.concat(result,ignore_index=True)
+
+        # client = bigquery.Client('potent-howl-314215')
+        # table_id = 'potent-howl-314215.fbapi.fbapi_data'
+        # client.delete_table(table_id, not_found_ok=True)
+        # job_config = bigquery.LoadJobConfig(
+        #     source_format=bigquery.SourceFormat.CSV, skip_leading_rows=1, autodetect=True,
+        # )
+        # job = client.load_table_from_file(result, table_id, job_config=job_config)
+        # job.result()
+        # table = client.get_table(table_id)
+            
+        result.to_csv('OUTPUT\data.csv',encoding="utf-8-sig",index=False)
 
         # BigQuery
         client.delete_table(table_id, not_found_ok=True)
@@ -142,8 +148,8 @@ try:
         t = time.localtime()
         current_time = time.strftime("%H:%M:%S", t)
         print('Times {times} (at {now})'.format(times=times,now=current_time))
+        # print("Loaded {} rows and {} columns to {}".format(table.num_rows, len(table.schema), table_id))
         time.sleep(time_sleep)
-        print("Loaded {} rows and {} columns to {}".format(table.num_rows, len(table.schema), table_id))
         
 except KeyboardInterrupt:
     print('Done!')

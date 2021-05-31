@@ -36,14 +36,14 @@ inline_post_engagement,The total number of actions that people take involving yo
 objective,The objective reflecting the goal you want to achieve with your advertising,Đối tượng phản ánh với mục tiêu mà muốn quảng cáo đạt được 
 optimization_goal,The optimization goal you selected for your ad or ad set,Mục tiêu tối ưu hóa cho quảng cáo
 quality_ranking,A ranking of your ad's perceived quality. Quality is measured using feedback on your ads and the post-click experience,Xếp hạng chất lượng quảng cáo
-post_like,The number of like on your ad,Số lượt like bài viết
-post_love,The number of love on your ad,Số lượt love bài viết
-post_care,The number of care on your ad,Số lượt care bài viết
-post_haha,The number of haha on your ad,Số lượt haha bài viết
-post_wow,The number of wow on your ad,Số lượt wow bài viết
-post_sad,The number of sad on your ad,Số lượt sad bài viết
-post_angry,The number of angry on your ad,Số lượt angry bài viết
-post_comment,The number of likes on your ad,Số lượt comment bài viết
+like,The number of like on your ad,Số lượt like bài viết
+love,The number of love on your ad,Số lượt love bài viết
+care,The number of care on your ad,Số lượt care bài viết
+haha,The number of haha on your ad,Số lượt haha bài viết
+wow,The number of wow on your ad,Số lượt wow bài viết
+sad,The number of sad on your ad,Số lượt sad bài viết
+angry,The number of angry on your ad,Số lượt angry bài viết
+comment,The number of likes on your ad,Số lượt comment bài viết
 checkin,Check-ins,Số lượt check-in
 credit_spent,Credit Spends,Chi phí tín dụng
 landing_page_view,Landing Page Views,Số lượt xem trang
